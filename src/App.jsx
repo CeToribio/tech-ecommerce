@@ -8,7 +8,6 @@ import Categories from './pages/categories/Categories';
 
 function App() {
   
-
   return (
     <>
     <BrowserRouter>
