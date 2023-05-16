@@ -1,0 +1,24 @@
+.container-page-product p {
+  font-size: 1rem;
+}
+
+.imgPrincipal {
+  width: 20%;
+  height: 50%;
+  /* border: 2px solid rebeccapurple; */
+}
+
+.imagesProduct{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  gap: 2rem;
+  /* border: 2px solid blue; */
+  background-color: var(--color-gray-white);
+  justify-content: center;
+}
+
+.imagesProduct img{
+  /* border: 2px solid orange; */
+  width: 13%;
+}
