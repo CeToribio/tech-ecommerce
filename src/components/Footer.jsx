@@ -1,3 +1,5 @@
+import "../style/footer.css"
+
 function Footer(){
     return(
         <>
@@ -15,3 +17,5 @@ function Footer(){
 }
 
 export default Footer
+
+
