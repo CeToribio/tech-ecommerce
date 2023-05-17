@@ -61,12 +61,6 @@ function addProduct(product){
           "Loading"
         )}
       </section>
-      <button onClick={() => {
-        const funcion1 = addProduct;
-        const funcion2 = navigate("/shoppingcart");
-        funcion1();
-        funcion2();
-      }} >carrito</button>
      
       <Footer />
     </>
