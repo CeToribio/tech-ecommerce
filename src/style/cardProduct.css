@@ -10,6 +10,10 @@
 
 }
 
+.card-product :hover{
+  cursor: pointer;
+}
+
 .card-product img{
   width: 100%;
   height: 50%;

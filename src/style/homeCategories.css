@@ -20,6 +20,10 @@
 	
 }
 
+.containerCategories div:hover{
+	cursor: pointer;
+}
+
 .containerCategories div a{
 	color: var(--color-purple);
 }

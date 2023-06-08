@@ -8,29 +8,29 @@ function Categories() {
   return (
 
     <section className="containerCategories">
-      <div>
+      <div onClick={()=> navigate(`/category/${category[0]}`)}>
         <i className="fi fi-ts-mobile-notch"></i>
-        <p href="" onClick={()=> navigate(`/category/${category[0]}`)}>CELULARES</p>
+        <p href="" >CELULARES</p>
       </div>
-      <div>
+      <div onClick={()=> navigate(`/category/${category[1]}`)}>
         <i className="fi fi-ts-laptop-code"></i>
-        <p href="" onClick={()=> navigate(`/category/${category[1]}`)}>LAPTOPS</p>
+        <p href="" >LAPTOPS</p>
       </div>
-      <div>
+      <div onClick={()=> navigate(`/category/${category[2]}`)}>
         <i className="fi fi-tr-air-freshener"></i>
-        <p href="" onClick={()=> navigate(`/category/${category[2]}`)}>FRAGANCIAS</p>
+        <p href="" >FRAGANCIAS</p>
       </div>
-      <div>
+      <div onClick={()=> navigate(`/category/${category[3]}`)}>
         <i className="fi fi-rs-cream"></i>
-        <p href="" onClick={()=> navigate(`/category/${category[3]}`)}>CUIDADO DE LA PIEL</p>
+        <p href="" >CUIDADO DE LA PIEL</p>
       </div>
-      <div>
+      <div onClick={()=> navigate(`/category/${category[4]}`)}>
         <i className="fi fi-ts-mug-hot-alt"></i>
-        <p href="" onClick={()=> navigate(`/category/${category[4]}`)}>COMESTIBLES</p>
+        <p href="" >COMESTIBLES</p>
       </div>
-      <div>
+      <div onClick={()=> navigate(`/category/${category[5]}`)}>
         <i className="fi fi-tr-home-heart"></i>
-        <p href="" onClick={()=> navigate(`/category/${category[5]}`)}>DECORACIÓN PARA EL HOGAR</p>
+        <p href="" >DECORACIÓN PARA EL HOGAR</p>
       </div>
     </section>
   );
